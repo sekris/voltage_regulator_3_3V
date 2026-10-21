@@ -9,6 +9,212 @@
 		(date "2026-10-19")
 	)
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Plug_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -1870,7 +2076,7 @@
 		(at 194.31 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79e93211-c24c-4eb8-b312-cc5f474d1394")
+		(uuid "817dc0fe-d6b9-4d08-b563-ba95648b96a9")
 	)
 	(junction
 		(at 158.75 114.3)
@@ -1883,12 +2089,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cf842f1-0dfc-4f80-96bf-a0d0ccf2260c")
-	)
-	(junction
-		(at 213.36 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b09ce20e-b6ed-42a8-b0d4-164cfbefb1f5")
 	)
 	(junction
 		(at 182.88 114.3)
@@ -1943,18 +2143,6 @@
 		(uuid "004272d6-6d0c-4190-8083-ff45136c6d09")
 	)
 	(no_connect
-		(at 198.12 81.28)
-		(uuid "4511d4d6-659e-4e15-b320-fb165000724e")
-	)
-	(no_connect
-		(at 198.12 86.36)
-		(uuid "532dccdb-12fb-490b-a54c-3cf052e8dee4")
-	)
-	(no_connect
-		(at 198.12 91.44)
-		(uuid "5557d059-362f-4f75-aaea-ac3c5eee2bd3")
-	)
-	(no_connect
 		(at 86.36 91.44)
 		(uuid "9a4d441d-e6c9-4f7c-9d87-8beffd0b1cb6")
 	)
@@ -1965,10 +2153,6 @@
 	(no_connect
 		(at 86.36 81.28)
 		(uuid "b625259f-58d8-4843-8f85-dfb839521ef7")
-	)
-	(no_connect
-		(at 198.12 78.74)
-		(uuid "f466c53f-e2a2-4937-8632-2251ea9c8d62")
 	)
 	(wire
 		(pts
@@ -1989,16 +2173,6 @@
 			(type default)
 		)
 		(uuid "07057190-b915-4859-aec9-e687fc65601e")
-	)
-	(wire
-		(pts
-			(xy 194.31 114.3) (xy 213.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be47ccc-d106-40ca-a9f5-192d8be20384")
 	)
 	(wire
 		(pts
@@ -2062,6 +2236,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 76.2) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426cbbfd-e0d1-45a9-a76d-49d6df655756")
+	)
+	(wire
+		(pts
 			(xy 144.78 114.3) (xy 152.4 114.3)
 		)
 		(stroke
@@ -2069,6 +2253,16 @@
 			(type default)
 		)
 		(uuid "4b064069-d727-4c03-901e-8f27f232f0fc")
+	)
+	(wire
+		(pts
+			(xy 198.12 114.3) (xy 194.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52212044-e50e-4872-9989-e7104e7678b5")
 	)
 	(wire
 		(pts
@@ -2252,16 +2446,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 114.3) (xy 220.98 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8179d47-03e8-4043-9111-2e8663f96be6")
-	)
-	(wire
-		(pts
 			(xy 71.12 114.3) (xy 93.98 114.3)
 		)
 		(stroke
@@ -2289,16 +2473,6 @@
 			(type default)
 		)
 		(uuid "d8ed3f7a-0e3d-45e6-8156-a07189d8366f")
-	)
-	(wire
-		(pts
-			(xy 213.36 111.76) (xy 213.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e051e36b-7ce3-46e5-9b74-4d37d5668f2e")
 	)
 	(wire
 		(pts
@@ -2359,16 +2533,6 @@
 			(type default)
 		)
 		(uuid "fe774ac7-9cae-4add-a841-0b1d53af94ec")
-	)
-	(wire
-		(pts
-			(xy 213.36 114.3) (xy 220.98 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fefba055-d0a6-4fe5-8b16-393ba942ab1e")
 	)
 	(label "5V"
 		(at 90.805 73.66 0)
@@ -3251,9 +3415,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 213.36 88.9 0)
-		(mirror y)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 203.2 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3261,31 +3424,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aca86b19-bff2-439f-b81e-76f92586e1b8")
-		(property "Reference" "P2"
-			(at 224.79 90.1701 0)
+		(fields_autoplaced yes)
+		(uuid "9b86a9c4-2034-4cef-aee2-76306f5bd498")
+		(property "Reference" "J1"
+			(at 205.74 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 224.79 87.6301 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 205.74 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_TYPE-C-006:USB-C-SMD_USB-TYPE-C-006_USB-TYPE-C-006_C2927026"
-			(at 209.55 88.9 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 203.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3295,8 +3459,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 209.55 88.9 0)
+		(property "Datasheet" ""
+			(at 203.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3306,8 +3470,8 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 213.36 88.9 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3317,49 +3481,16 @@
 				)
 			)
 		)
-		(pin "B4"
-			(uuid "96219d39-e060-42e1-86f9-49244e921c4a")
+		(pin "1"
+			(uuid "acc2e83b-4401-4c5f-94e0-31ce88668a12")
 		)
-		(pin "A12"
-			(uuid "a03ec73b-9788-45d8-95a5-de9de8afdfe5")
-		)
-		(pin "B12"
-			(uuid "820efcd0-0449-4a9c-b3cd-3de862a08373")
-		)
-		(pin "B9"
-			(uuid "e375a183-abe9-4b8f-bc07-d70787534c17")
-		)
-		(pin "B1"
-			(uuid "bdfe43b1-7edc-408a-93bc-47d6126f4d93")
-		)
-		(pin "A9"
-			(uuid "6d9850be-5707-4906-a186-2f93b515a3ba")
-		)
-		(pin "SH"
-			(uuid "388e8c3f-613a-42de-a1fe-c7bb64dc76c2")
-		)
-		(pin "B5"
-			(uuid "e93d8030-5d93-4d72-8e5e-bb92839f1e6b")
-		)
-		(pin "A4"
-			(uuid "ae9c2ab3-70ff-47d4-bf34-448bda15b3c7")
-		)
-		(pin "A7"
-			(uuid "89b78c84-4aa7-495f-9ef1-b75e81e35dd5")
-		)
-		(pin "A5"
-			(uuid "227379b7-6803-4656-a7fc-33d12efe87a5")
-		)
-		(pin "A6"
-			(uuid "c1c005f3-046d-43e0-82f5-7607c61eca52")
-		)
-		(pin "A1"
-			(uuid "5c35a00c-6d1b-488e-857e-f29c53189c6f")
+		(pin "2"
+			(uuid "09f1c511-9345-48bb-bd66-ece88e387475")
 		)
 		(instances
 			(project "voltage_regulator_3_3V"
 				(path "/f388d50b-5132-4741-9f78-ed93b89a92e2"
-					(reference "P2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
